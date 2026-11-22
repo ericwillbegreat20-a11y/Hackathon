@@ -1,0 +1,1 @@
+Added oppressive burgundy/dark styling; interactive breadcrumb history maze; notification dismiss buttons with five-second countdown; student attendance quiz per course. Existing instructor attendance remains.

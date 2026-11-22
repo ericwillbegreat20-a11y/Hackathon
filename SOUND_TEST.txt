@@ -1,0 +1,1 @@
+Click TEST LOUD CHIME first. If this clearly audible 880 Hz tone cannot be heard despite a playing status, check Chrome tab mute, Windows volume mixer, audio output device, and speaker/headphone volume. Then click PLAY MUSIC. All audio is bundled locally.

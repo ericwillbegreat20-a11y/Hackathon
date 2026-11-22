@@ -1,0 +1,18 @@
+Campusline repair pass (2026-11-22)
+
+Changes in app.js:
+- Fixed resubmission: close old assignment dialog before starting a new attempt, preventing the previous answer from silently being copied into the blank resubmission.
+- Fixed instructor grade form: 0 is a valid numeric grade and is now accepted.
+- Fixed judge code/score association: test results are tied to the exact code tested, not an answer changed while tests were running.
+- Cancel any in-flight judge run when beginning a new submission attempt.
+- Prevent an invalid/stale discussion thread link from crashing the page; show discussions instead.
+
+Preserved intentionally difficult UI: access math CAPTCHA, unsolicited advice overlay, 8-second grade reveal, grade riddles, course codes, moving judge buttons, one-at-a-time judge results, confirmation gate, strict 0/100 scoring, halving resubmission timers, existing payment demo.
+
+Verification:
+- JavaScript syntax check passed.
+- Node VM render smoke tests passed for 12 sections x 2 roles (24 combinations).
+- ZIP integrity verified.
+- Automated real-browser interactions could not be completed because the test environment blocked navigation to local HTTP and file pages. This is NOT a guarantee that every button works; please use a local browser to check the complete flows.
+
+To run: extract entire ZIP into a folder, then open index.html. If browser blocks local resources, run `python -m http.server 8000` in that folder and open http://localhost:8000/index.html.

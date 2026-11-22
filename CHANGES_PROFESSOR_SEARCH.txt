@@ -1,0 +1,1 @@
+Instructor dashboard now requires an exact individual student-name search. HELP BOX provides Alex Morgan, Jamie Park, and Morgan Lee. Sample grade, attendance, course, student ID and status shown one student at a time. All prior features retained.

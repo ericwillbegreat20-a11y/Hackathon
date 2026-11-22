@@ -1,0 +1,1 @@
+Added confirmation before each successful directory-search navigation. Cancel keeps user in directory. Applied distressed dark red/charcoal high-density visual styling. All existing JavaScript feature flows retained.

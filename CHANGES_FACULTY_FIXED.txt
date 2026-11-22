@@ -1,0 +1,1 @@
+Faculty dashboard is now separate from student dashboard. Faculty destination help words: dashboard, teaching, submissions, class attendance, discussions, notifications, help. Student grades, payments and wellbeing are unavailable in faculty mode. Exact-name student lookup remains. All existing global frustrating UX features retained.

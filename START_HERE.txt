@@ -1,0 +1,14 @@
+﻿Campusline Hate UX Demo
+
+Extract all files, then open index.html in Chrome or Edge. Keep every file in the same folder.
+Assignment task: open Assignments to start a 60-second countdown. Enter an answer or choose a sample file, check exactly one submission route and the acknowledgment, then complete all four inline confirmations and the 10-second queue. Multiple routes can be checked while editing, but manual submission rejects them until only one remains.
+
+At 60 seconds, the current draft is automatically submitted, even if empty or unacknowledged. The last checked route is kept; no selection defaults to Course portal. Closing/reopening the dialog does not reset the timer. A submitted assignment cannot be edited. Refresh resets the demo.
+
+Payment demo: click Simulate payment to open MISSPAY.html. Keep that file beside index.html; it is a fictional simulation and does not process real payments.
+
+
+Real camera demo: on MISSPAY Face Verification, click Start camera & detect face and allow browser camera access. Only local face presence is checked; no identity matching. Two consecutive positive frames complete verification and immediately close the camera. No photos, recordings, face features, or camera images are stored or uploaded. Stop/cancel, switching away, and scan timeout also close the camera. Camera access requires a secure context (localhost or HTTPS if your browser blocks local files). Keep pico.js, face-model.js, and face-camera.js beside MISSPAY.html.
+
+
+Grades demo: open Grades to see 18 sample scores ranging from 50 to 90, sorted lowest first. Data Structures starts as the weakest subject (average 60.0). Its rows and a reminder to keep improving are highlighted. Course filters retain ascending order; new instructor grades join the same ordering and update the weakest-subject average. Ungraded assignments appear at the bottom.

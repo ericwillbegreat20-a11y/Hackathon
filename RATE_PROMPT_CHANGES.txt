@@ -1,0 +1,1 @@
+New: Mock Play Store rate-this-app reminder every 20 seconds after CAPTCHA verification. Dismissible; reappears every 20 seconds. Stops during CAPTCHA/logout. No real Play Store link or submission.

@@ -1,0 +1,1 @@
+Every 5.5 seconds the major visible page sections change visual order, including dashboard, assignments, grades, attendance, courses and search hub. The same elements are reused (CSS order), preserving input values, event listeners, timers, and application state. All earlier UX features are retained.

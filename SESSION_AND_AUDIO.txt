@@ -1,0 +1,1 @@
+Automatic access expiry: 60 seconds after each successful CAPTCHA. Returns to CAPTCHA; saved app state is not deliberately erased. Original low-volume synthesized drone starts after CAPTCHA verification (browser audio permission rules). Use the fixed mute button to silence it.

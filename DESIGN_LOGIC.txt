@@ -1,0 +1,11 @@
+﻿Hate UX design mechanisms:
+1. Checkboxes allow multiple route selections, but final manual submission requires exactly one. Acknowledgment, four inline confirmations, and a 10-second queue consume the same deadline.
+2. One-minute visible countdown from first opening; the current draft (including blank work) is auto-submitted at 60 seconds. Closing the dialog does not pause or reset it. Automatic submission keeps only the last checked route, or defaults to Course portal. Final submissions are locked.
+3. Course codes are random and opaque, so course identities are difficult to recognize.
+4. Assignment prompts demand infeasible work (500 interviews, production AI tutor, 40-page report).
+5. All graded records (sample history and instructor-graded assignments) share one lowest-to-highest sort. There are 18 sample grades across three subjects, from 50 to 90. Ungraded work appears last. The subject with the lowest mean of graded records is labeled "Your weakest subject" and "Keep improving"; its rows are highlighted. The initial weakest subject is Data Structures, average 60.0. The weakest-subject calculation uses all subjects even while filtering one course.
+
+A student can submit manually by entering an answer or selecting a sample file, keeping exactly one route, checking the acknowledgment, accepting all four inline confirmations, and finishing the queue before the 60-second deadline. Timer expiry bypasses validation and confirmations. Switching assignments uses independent deadlines and drafts; refreshing resets all sample data.
+
+
+Payment camera update: the fake third-attempt success animation is replaced with real getUserMedia video and local pico face detection. Camera starts only after a user click and browser permission, requests no microphone, and shuts off as soon as a face is detected in two consecutive frames. Temporary pixel buffers and canvas are cleared after each pass. Only the in-memory faceVerified boolean is passed to the payment flow; no image, face feature, or identity enters transaction history. Detection cancels on page hide, hidden tab, component unmount, manual cancellation, or timeout. All detector code and the generic model ship locally, without external requests at runtime. This remains a fictional payment simulation and does not authenticate identity.
